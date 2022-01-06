@@ -1,0 +1,31 @@
+.section {
+    margin: 4rem;
+}
+table.my-table {
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+thead.my-table.headers tr th {
+    background-color: darkblue;
+    color: white;
+    height: 25px;
+    width: 225px
+}
+
+tbody.my-table.body tr td {
+    border: black solid 1px;
+    height: 25px;
+    text-align: center;
+}
+
+tbody.my-table.body tr td.last {
+    border-right: none;
+}
+
+tbody.my-table.body tr.active {
+    background-color: gainsboro;
+    cursor: pointer;
+}
